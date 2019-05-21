@@ -1,7 +1,7 @@
 def get_champions_name(_id):
     """
     this functions takes an _id and returns the associate champions name
-    :param _id: any integer from 1 to 498. if there is a champion, it will return the name.
+    :param _id: any integer from 1 to 517. if there is a champion, it will return the name.
     :return: champions name
     """
     all_champion_id = {
