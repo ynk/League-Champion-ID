@@ -1,5 +1,10 @@
-def championID(id):
-    championID = {
+def get_champions_name(_id):
+    """
+    this functions takes an _id and returns the associate champions name
+    :param _id: any integer from 1 to 498. if there is a champion, it will return the name.
+    :return: champions name
+    """
+    all_champion_id = {
         1: "Annie",
         2: "Olaf",
         3: "Galio",
@@ -137,5 +142,18 @@ def championID(id):
         497: "Rakan",
         498: "Xayah",
     }
-    return championID.get(id)
+    return all_champion_id.get(_id)
+
+
+if __name__ == "__main__":
+    try:
+        champion_id = input("Please provide a champions id: ")
+        if 1 <= int(champion_id) <= 498:
+            print("Your champion: {}".format(get_champions_name(int(champion_id))))
+        else:
+            print("Champions IDS are from 1 to 498.")
+    except ValueError:
+        print("You have to provide a decimal value to check this out.")
+    except KeyboardInterrupt:
+        print("System Exit. Keyboard Interrupted!")
 
