@@ -116,6 +116,7 @@ def get_champions_name(_id):
         141: "Kayn",
         142: "Zoe",
         143: "Zyra",
+        145: "Kai'sa",
         150: "Gnar",
         154: "Zac",
         157: "Yasuo",
@@ -157,7 +158,7 @@ if __name__ == "__main__":
         if 1 <= int(champion_id) <= 555:
             print("Your champion: {}".format(get_champions_name(int(champion_id))))
         else:
-            print("Champions IDS are from 1 to 517.")
+            print("Champions IDS are from 1 to 555.")
     except ValueError:
         print("You have to provide a decimal value to check this out.")
     except KeyboardInterrupt:
