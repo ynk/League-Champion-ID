@@ -1,7 +1,7 @@
 def get_champions_name(_id):
     """
     this functions takes an _id and returns the associate champions name
-    :param _id: any integer from 1 to 517. if there is a champion, it will return the name.
+    :param _id: any integer from 1 to 555. if there is a champion, it will return the name.
     :return: champions name
     """
     all_champion_id = {
@@ -113,6 +113,7 @@ def get_champions_name(_id):
         133: "Quinn",
         134: "Syndra",
         136: "AurelionSol",
+        141: "Kayn",
         142: "Zoe",
         143: "Zyra",
         150: "Gnar",
@@ -120,6 +121,7 @@ def get_champions_name(_id):
         157: "Yasuo",
         161: "Vel'Koz",
         163: "Taliyah",
+        164: "Camille",
         201: "Braum",
         202: "Jhin",
         203: "Kindred",
@@ -143,6 +145,7 @@ def get_champions_name(_id):
         497: "Rakan",
         498: "Xayah",
         517: "Sylas",
+        555: "Pyke",
 
     }
     return all_champion_id.get(_id)
@@ -151,7 +154,7 @@ def get_champions_name(_id):
 if __name__ == "__main__":
     try:
         champion_id = input("Please provide a champions id: ")
-        if 1 <= int(champion_id) <= 517:
+        if 1 <= int(champion_id) <= 555:
             print("Your champion: {}".format(get_champions_name(int(champion_id))))
         else:
             print("Champions IDS are from 1 to 517.")
