@@ -133,6 +133,7 @@ def get_champions_name(_id):
         266: "Aatrox",
         267: "Nami",
         268: "Azir",
+        350: "Yuumi",
         412: "Thresh",
         420: "Illaoi",
         421: "Rek'Sai",
@@ -141,6 +142,8 @@ def get_champions_name(_id):
         432: "Bard",
         497: "Rakan",
         498: "Xayah",
+        517: "Sylas",
+
     }
     return all_champion_id.get(_id)
 
