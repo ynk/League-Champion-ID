@@ -1,11 +1,10 @@
-# League Champion ID's
-  - A better version of but written in python [Najsr's version](https://github.com/Najsr/League-Of-Legends-Champions-ID-List/blob/master/list.php "League-Of-Legends-Champions-ID-List") 
- # Usage
-  ```python
-print(championID(143)) # Champion 143 is Zyra in the switch case so this should print Zyra as output
-> Zyra
+# League of Legends Champions IDs
+This function is a python implementation of [Najsr's](https://github.com/Najsr/League-Of-Legends-Champions-ID-List/blob/master/list.php) php function.
+ 
+
+# Usage
+1) Run the file getChampionNameByID and test the function out
 ```
-
-
-
-
+python getChampionNameByID.py
+```
+This will show a prompting to provide champions_id, if you provide 143, it will return Zyra.
