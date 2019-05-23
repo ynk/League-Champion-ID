@@ -423,6 +423,9 @@ function getChampionIDToname($id)
         case 498:
             return "Xayah";
             break;
+         case 516:
+            return "Ornn";
+            break;
         case 517:
             return "Sylas";
             break;
