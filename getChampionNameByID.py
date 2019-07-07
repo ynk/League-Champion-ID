@@ -132,6 +132,7 @@ def get_champions_name(_id):
         238: "Zed",
         240: "Kled",
         245: "Ekko",
+        246: "Qiyana",
         254: "Vi",
         266: "Aatrox",
         267: "Nami",
