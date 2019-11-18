@@ -372,6 +372,9 @@ function getChampionIDToname($id)
         case 223:
             return "TahmKench";
             break;
+        case 235:
+            return "Senna";
+            break;
         case 236:
             return "Lucian";
             break;
