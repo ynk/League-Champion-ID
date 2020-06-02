@@ -441,6 +441,9 @@ function getChampionIDToname($id)
         case 555:
             return "Pyke";
             break;
+        case 875:
+            return "Pyke";
+            break;
     }
 }
 ?>
