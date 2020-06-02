@@ -149,6 +149,7 @@ def get_champions_name(_id):
         498: "Xayah",
         516: "Ornn",
         517: "Sylas",
+        523: "Aphelios",
         518: "Neeko",
         555: "Pyke",
         875: "Sett",
