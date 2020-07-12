@@ -445,7 +445,7 @@ function getChampionIDToname($id)
             return "Pyke";
             break;
         case 875:
-            return "Pyke";
+            return "Sett";
             break;
     }
 }
