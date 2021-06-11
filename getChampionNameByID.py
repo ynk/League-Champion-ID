@@ -117,6 +117,7 @@ def get_champions_name(_id):
         142: "Zoe",
         143: "Zyra",
         145: "Kai'sa",
+        147: "Seraphine",
         150: "Gnar",
         154: "Zac",
         157: "Yasuo",
@@ -128,6 +129,7 @@ def get_champions_name(_id):
         203: "Kindred",
         222: "Jinx",
         223: "TahmKench",
+        234: "Viego",
         235: "Senna",
         236: "Lucian",
         238: "Zed",
@@ -139,6 +141,7 @@ def get_champions_name(_id):
         267: "Nami",
         268: "Azir",
         350: "Yuumi",
+        360: "Samira",
         412: "Thresh",
         420: "Illaoi",
         421: "Rek'Sai",
@@ -151,9 +154,12 @@ def get_champions_name(_id):
         517: "Sylas",
         523: "Aphelios",
         518: "Neeko",
+        526: "Rell",
         555: "Pyke",
+        777 "Yone",
         875: "Sett",
         876: "Lillia",
+        887: "Gwen",
 
 
     }
